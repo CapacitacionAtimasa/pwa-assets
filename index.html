@@ -5,22 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Caminata Excelencia Operativa</title>
 
-  <!-- Color de la barra de estado móvil -->
+  <!-- Color de la barra del navegador y del sistema -->
   <meta name="theme-color" content="#FF6600">
 
-  <!-- Configuración PWA para iOS / iPhone -->
-  <meta name="mobile-web-app-capable" content="yes">
+  <!-- Configuración e Ícono PWA para iOS / iPhone (Safari) -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Excelencia">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/pvargasmatimasa-ship-it/pwa-assets@main/icon-180.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icon-180.png">
+  <link rel="apple-touch-icon" href="./icon-180.png">
 
-  <!-- Configuración PWA para Android -->
-  <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.jsdelivr.net/gh/pvargasmatimasa-ship-it/pwa-assets@main/icon-192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="https://cdn.jsdelivr.net/gh/pvargasmatimasa-ship-it/pwa-assets@main/icon-512.png">
+  <!-- Configuración e Íconos PWA para Android (Chrome) -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./icon-512.png">
 
-  <!-- Manifest PWA -->
-  <link rel="manifest" href='data:application/manifest+json,{"name":"Caminata Excelencia Operativa","short_name":"Excelencia","start_url":".","display":"standalone","background_color":"#FFFFFF","theme_color":"#FF6600","icons":[{"src":"https://cdn.jsdelivr.net/gh/pvargasmatimasa-ship-it/pwa-assets@main/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"https://cdn.jsdelivr.net/gh/pvargasmatimasa-ship-it/pwa-assets@main/icon-512.png","sizes":"512x512","type":"image/png"}]}'>
+  <!-- Archivo Manifiesto PWA -->
+  <link rel="manifest" href="./manifest.json">
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -30,8 +31,7 @@
 </head>
 <body>
 
-  <!-- IMPORTANTE: Reemplaza la URL de abajo por la URL de tu Web App de Google Apps Script -->
-  <iframe src="https://script.google.com/macros/s/AKfycbyaWEpgjRbNZw1HujvFlXfIoExHNQKXu4QKf3rAqNzD51mTvjeyj3DsK7OmCA5WuO9IyA/exec" allow="camera; microphone; geolocation"></iframe>
+  <iframe src="https://script.google.com/macros/s/TU_EXEC_ID_AQUI/exec" allow="camera; microphone; geolocation"></iframe>
 
 </body>
 </html>
